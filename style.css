@@ -1,0 +1,53 @@
+h1{
+    color : #0000FF;
+    border :solid;
+    background-color: #00FFFF ;
+    /* background-image:url("teddy.png"); */
+    
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+
+}
+img{
+    border: dashed black;
+    border-radius: 40px;
+    background-color: red;
+    opacity:1;
+
+
+}
+p{
+    font-family: comic sans ms;
+
+}
+body{
+    background-color: #30d5c8;
+    
+}
+
+.origamis {
+    display: flex;
+    background-color :aquamarine;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin:30px;
+    
+    
+
+}
+
+
+img:hover{
+    opacity:.45;
+    transform: scale(1.2);
+}
+
+
+a:link{
+    color: #1045f5;
+}
+a:visited{
+    color:plum;
+}
